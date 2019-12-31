@@ -4,7 +4,7 @@ def home(request):
     return render(request,'home/home.html')
 
 def about(request ):
-    return render(request,'home/about.html',ls)
+    return render(request,'home/about.html')
 
 def test(request,name):
     ls = {'name':name}
